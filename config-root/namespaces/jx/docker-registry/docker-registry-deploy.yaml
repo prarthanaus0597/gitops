@@ -27,7 +27,7 @@ spec:
         release: docker-registry
       annotations:
         checksum/config: 8c9a66051bfb62d554d483693a0c083c845d1fb7a6a4cfad4e244df134eb7bdc
-        checksum/secret: d39dce46988b59d39ec303a8f4b23db6c49b196d02f38c3ad5dc3d88f45a36f7
+        checksum/secret: 9fc62bff4fdb216d8ba60fb6bfc6f8f57a6d13045205a4e9ef5d60ab4adfa887
     spec:
       securityContext:
         fsGroup: 1000
