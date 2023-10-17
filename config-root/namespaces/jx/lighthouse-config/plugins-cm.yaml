@@ -6,6 +6,10 @@ data:
       repos:
       - prarthanaus0597/gitops
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - prarthanaus0597/php-helloworld
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -21,6 +25,11 @@ data:
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
+      prarthanaus0597/php-helloworld:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
     heart: {}
     label:
       additional_labels: null
@@ -28,6 +37,20 @@ data:
     plugins:
       prarthanaus0597/gitops:
       - config-updater
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
+      prarthanaus0597/php-helloworld:
       - approve
       - assign
       - help
@@ -53,6 +76,11 @@ data:
     - repos:
       - prarthanaus0597/gitops
       trusted_org: prarthanaus0597
+    - repos:
+      - prarthanaus0597/php-helloworld
+      trusted_org: prarthanaus0597
+    welcome:
+    - message_template: Welcome
 kind: ConfigMap
 metadata:
   creationTimestamp: null
