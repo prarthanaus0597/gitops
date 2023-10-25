@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: gitops
     - name: php-helloworld
     scheduler: in-repo
   slack:
