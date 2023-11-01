@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         prarthanaus0597/gitops: true
+        prarthanaus0597/https-github.com-prarthanaus0597-scientific_calculator: true
         prarthanaus0597/php-helloworld: true
     plank: {}
     pod_namespace: jx
@@ -21,6 +22,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         prarthanaus0597/gitops: merge
+        prarthanaus0597/https-github.com-prarthanaus0597-scientific_calculator: merge
         prarthanaus0597/php-helloworld: merge
       queries:
       - labels:
@@ -33,6 +35,7 @@ data:
         - needs-rebase
         repos:
         - prarthanaus0597/gitops
+        - prarthanaus0597/https-github.com-prarthanaus0597-scientific_calculator
         - prarthanaus0597/php-helloworld
       - labels:
         - updatebot
@@ -44,6 +47,7 @@ data:
         - needs-rebase
         repos:
         - prarthanaus0597/gitops
+        - prarthanaus0597/https-github.com-prarthanaus0597-scientific_calculator
         - prarthanaus0597/php-helloworld
       target_url: http://lighthouse-jx.192.168.49.2.nip.io/merge/status
 kind: ConfigMap
