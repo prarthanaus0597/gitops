@@ -10,6 +10,7 @@ spec:
     repositories:
     - name: gitops
     - name: https-github.com-prarthanaus0597-scientific_calculator
+    - name: new
     - name: php-helloworld
     scheduler: in-repo
   slack:
