@@ -11,6 +11,7 @@ spec:
     - name: gitops
     - name: https-github.com-prarthanaus0597-scientific_calculator
     - name: new
+    - name: new2
     - name: php-helloworld
     scheduler: in-repo
   slack:
