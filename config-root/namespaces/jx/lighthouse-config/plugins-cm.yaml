@@ -16,6 +16,14 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - prarthanaus0597/new
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - prarthanaus0597/new2
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - prarthanaus0597/php-helloworld
       require_self_approval: true
     cat: {}
@@ -34,6 +42,16 @@ data:
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
       prarthanaus0597/https-github.com-prarthanaus0597-scientific_calculator:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      prarthanaus0597/new:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      prarthanaus0597/new2:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -64,6 +82,34 @@ data:
       - dog
       - pony
       prarthanaus0597/https-github.com-prarthanaus0597-scientific_calculator:
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
+      prarthanaus0597/new:
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
+      prarthanaus0597/new2:
       - approve
       - assign
       - help
@@ -108,6 +154,12 @@ data:
       trusted_org: prarthanaus0597
     - repos:
       - prarthanaus0597/https-github.com-prarthanaus0597-scientific_calculator
+      trusted_org: prarthanaus0597
+    - repos:
+      - prarthanaus0597/new
+      trusted_org: prarthanaus0597
+    - repos:
+      - prarthanaus0597/new2
       trusted_org: prarthanaus0597
     - repos:
       - prarthanaus0597/php-helloworld

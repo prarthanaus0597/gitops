@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: prarthanaus0597
+    provider: github
+    repository: new
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: prarthanaus0597-new
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/prarthanaus0597/new.git
+  org: prarthanaus0597
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: new
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/prarthanaus0597/new
