@@ -61,7 +61,7 @@ data:
         - prarthanaus0597/new2
         - prarthanaus0597/new3
         - prarthanaus0597/php-helloworld
-      target_url: http://lighthouse-jx.192.168.49.2.nip.io/merge/status
+      target_url: http://lighthouse-jx.192.168.49.2/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
