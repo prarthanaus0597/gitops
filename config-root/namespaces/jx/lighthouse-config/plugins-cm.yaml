@@ -28,6 +28,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - prarthanaus0597/new4
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - prarthanaus0597/php-helloworld
       require_self_approval: true
     cat: {}
@@ -61,6 +65,11 @@ data:
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
       prarthanaus0597/new3:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      prarthanaus0597/new4:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -146,6 +155,20 @@ data:
       - cat
       - dog
       - pony
+      prarthanaus0597/new4:
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
       prarthanaus0597/php-helloworld:
       - approve
       - assign
@@ -186,6 +209,9 @@ data:
       trusted_org: prarthanaus0597
     - repos:
       - prarthanaus0597/new3
+      trusted_org: prarthanaus0597
+    - repos:
+      - prarthanaus0597/new4
       trusted_org: prarthanaus0597
     - repos:
       - prarthanaus0597/php-helloworld
