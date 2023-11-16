@@ -15,6 +15,7 @@ spec:
     - name: new3
     - name: new4
     - name: php-helloworld
+    - name: react-quickstart
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
