@@ -13,6 +13,7 @@ data:
         prarthanaus0597/new2: true
         prarthanaus0597/new3: true
         prarthanaus0597/php-helloworld: true
+        prarthanaus0597/new3: true       
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -30,6 +31,7 @@ data:
         prarthanaus0597/new2: merge
         prarthanaus0597/new3: merge
         prarthanaus0597/php-helloworld: merge
+        prarthanaus0597/new3: merge
       queries:
       - labels:
         - approved
@@ -46,6 +48,7 @@ data:
         - prarthanaus0597/new2
         - prarthanaus0597/new3
         - prarthanaus0597/php-helloworld
+        - prarthanaus0597/new3
       - labels:
         - updatebot
         missingLabels:
@@ -61,6 +64,7 @@ data:
         - prarthanaus0597/new2
         - prarthanaus0597/new3
         - prarthanaus0597/php-helloworld
+        - prarthanaus0597/new3
       target_url: http://lighthouse-jx.192.168.49.2.nip.io/merge/status
 kind: ConfigMap
 metadata:
